@@ -19,9 +19,13 @@ The length of the input vector is 5, divide that length by 2, you'll get 2.
 So "2" is the index of the element that needs to be deleted from the vector as we already know vectors indexing starts with 0 so index 2 will be the third element in the vector which is 3.
 
 ## Usage
-Clone the repo from github and replace the inpuit vector with your own, then let the magic happen 😂.
 
-you can use this to clone the project :-
+1. You MUST have rust installed on your OS.
+2.Clone the repo from github using this command : "gh repo clone ahmadsamehh/deletethemiddlenote".
+3.Open the main.rs file using your text editor and then change the numbers in the node variable you'll find.
+4.Save the code and use the "Cargo Run" command in your terminal or cmd and let the magic happens.
 
-gh repo clone ahmadsamehh/deletethemiddlenote
+
+
+
 

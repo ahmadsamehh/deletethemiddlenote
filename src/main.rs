@@ -15,8 +15,3 @@ fn delete_middle_note(mut node_to_edit: Vec<i32>) -> Vec<i32> {
     node_to_edit.remove(position_to_delete);
     return node_to_edit;
 }
-
-
-fn test_code(){
-    
-}
