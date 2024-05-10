@@ -20,10 +20,14 @@ So "2" is the index of the element that needs to be deleted from the vector as w
 
 ## Usage
 
-1. You MUST have rust installed on your OS.
-2.Clone the repo from github using this command : "gh repo clone ahmadsamehh/deletethemiddlenote".
-3.Open the main.rs file using your text editor and then change the numbers in the node variable you'll find.
-4.Save the code and use the "Cargo Run" command in your terminal or cmd and let the magic happens.
+1. You MUST have Rust installed on your OS.
+>you can check Rust installation here ***[https://www.rust-lang.org/tools/install]***
+
+2. Clone the repo from github using this command : 
+`gh repo clone ahmadsamehh/deletethemiddlenote`.
+
+3. Open the `main.rs` file using your text editor and then change the numbers in the `node` variable you'll find.
+4. Save the code and use the "Cargo Run" command in your terminal or cmd and let the magic happens.
 
 
 
