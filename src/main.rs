@@ -1,7 +1,6 @@
 fn main() {
     let node: Vec<i32> = vec![1, 3, 4, 7, 1, 2, 6];
     //you can edit your node as you want.
-
     println!("UnEdited Node : {:?}", node);
     println!("Edited Node : {:?}", delete_middle_note(node));
 }
@@ -15,4 +14,9 @@ fn delete_middle_note(mut node_to_edit: Vec<i32>) -> Vec<i32> {
     );
     node_to_edit.remove(position_to_delete);
     return node_to_edit;
+}
+
+
+fn test_code(){
+    
 }
