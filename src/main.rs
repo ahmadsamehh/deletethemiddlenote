@@ -1,5 +1,5 @@
 fn main() {
-    let node: Vec<i32> = vec![1, 3, 4, 7, 1, 2, 6];
+    let node: Vec<i32> = vec![1, 3, 4, 7, 1, 2, 6,13,14,15,20,23,27];
     //you can edit your node as you want.
     println!("UnEdited Node : {:?}", node);
     println!("Edited Node : {:?}", delete_middle_note(node));
