@@ -19,5 +19,5 @@ jobs:
         password: ${{secrets.SMTP_PASSWORD}}
         subject: a7a
         body: a7a7a
-        to: ahmadsamehh99@gmail.com
-        from: ahmadsameh99@gmail.com
+        to: ahmadsameh99@gmail.com
+        from: ahmadsamehh99@gmail.com
