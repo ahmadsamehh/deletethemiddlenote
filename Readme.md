@@ -35,6 +35,7 @@ element to be deleted : 6
 Edited Node : [1, 3, 4, 7, 1, 2, 13, 14, 15, 20, 23, 27]
 ```
 
-
+## Features
+added email on push feature using github actions.
 
 
