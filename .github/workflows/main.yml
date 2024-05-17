@@ -1,0 +1,23 @@
+name: Email on push
+
+on: [push]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v2
+
+    - name: Send mail
+      uses: dawidd6/action-send-mail@v2
+      with:
+        server_address: smtp.gmail.com
+        server_port: 465
+        username: ${{ahmadsameh99}}
+        password: ${{Moi@barK01@Systel@6678#}}
+        subject: New push on GitHub
+        body: There was a new push on the repository.
+        to: ahmadsamehh99@gmail.com
+        from: Ahmad Sameh <ahmadsameh99@gmail.com>
