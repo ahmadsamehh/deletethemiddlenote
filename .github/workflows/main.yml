@@ -15,8 +15,8 @@ jobs:
       with:
         server_address: smtp.gmail.com
         server_port: 465
-        username: ${{ahmadsameh99}}
-        password: ${{Moi@barK01@Systel@6678#}}
+        username: ${{secrets.SMTP_USERNAME}}
+        password: ${{secrets.SMTP_PASSWORD}}
         subject: a7a
         body: a7a7a
         to: ahmadsamehh99@gmail.com
